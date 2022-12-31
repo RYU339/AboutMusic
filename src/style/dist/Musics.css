@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-top: 4rem;
+}
+.container .musicInfo {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.container .musicInfo div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin: 0.5rem;
+}
+.container .musicInfo input {
+  width: 200px;
+  height: 30px;
+  margin-left: 0.5rem;
+  padding-left: 5px;
+  border: 1px solid #086e7d;
+}
+.container .musicInfo button {
+  width: 80%;
+  height: 40px;
+  margin: 0.8rem auto;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.albumList {
+    margin: 0 auto;
+    // max-width: 1240px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 50px;
+    place-items: center;
+    margin-top: 4rem;
+}
+
+@media (min-width: 768px) {
+    .albumList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .albumList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.albumCover {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+}
+.albumCover:hover {
+    filter: brightness(80%) grayscale(100%) blur(3px);
+}
